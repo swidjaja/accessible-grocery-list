@@ -8,4 +8,6 @@ Below are the list of accessibility features found on this page
 - All links and buttons in the page can be operated on by using keyboard and mouse.
 - I provide couple of links in the page that will allow users to jump easily to the important parts of the page. This will save users from having to do a lot of 'tabbing' to go to certain part of page.
 
+I am sure that you will notice that the css and JavaScript is terribly lousy. My main purpose is to demonstrate accessibility and nothing else!
+
 There might be more areas that I haven't covered. Any suggestion is welcomed! Thank you!
