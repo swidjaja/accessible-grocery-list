@@ -1,0 +1,96 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+}
+
+.form__entry label {
+	font-weight: bold;
+}
+
+.form__submit {
+	margin: 10px 0;
+	border-radius: 6px;
+	padding: 10px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.grocery-item-name--input {
+	margin: 5px 0;
+	display: block;
+	width: calc(100% - 20px);
+	padding: 5px;
+}
+
+.grocery-list--body {
+	display: flex;
+	background-color: yellow;
+	border: 1px solid black;
+	height: 500px;
+	margin-bottom: 10px;
+}
+
+.grocery-list--edit,
+.grocery-list--add {
+	width: 50%;
+	padding: 10px;
+}
+
+.grocery-list--edit {
+	border-left: 1px solid black;
+	position: relative;
+}
+
+.grocery-list {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    
+    font-weight: bold;
+}
+
+.grocery-item {
+	display: inline-block;
+	padding: 10px;
+	font-weight: normal;
+}
+
+.form__error {
+	color: red;
+	font-weight: bold;
+}
+
+.form__success {
+	color: green;
+	font-weight: bold;
+}
+
+.grocery-list:focus {
+	outline:2px solid blue;
+}
+.grocery-item:focus {
+	outline:1px solid blue;
+}
+
+.grocery-item--bought {
+	text-decoration: line-through;
+}
+
+.go-to-add-list {
+	position: absolute;
+	bottom: 10px;
+}
+
+a.nav--link {
+	text-decoration: none;
+}
+
+a.go-back-to-list {
+	margin-top: 10px;
+}
