@@ -33,6 +33,7 @@ var addSubmitBtnHandler = function() {
       newItemEl.innerText = newItem;
       addClickHandlerGroceryItem(newItemEl);
       groceryListEl.append(newItemEl);
+      formSuccessEl.innerText = '';
       formSuccessEl.innerText = 'You have successfully added ' + newItem + ' to your grocery list!';
       formSuccessEl.style.display = 'block';
     }
